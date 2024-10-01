@@ -1,0 +1,6 @@
+n1=[2,3,2]
+n2=[1,2]
+a1=len([i for i in n1 if i in n2])
+a2=len([i for i in n2 if i in n1])
+result=(a1,a2)
+print(result)
