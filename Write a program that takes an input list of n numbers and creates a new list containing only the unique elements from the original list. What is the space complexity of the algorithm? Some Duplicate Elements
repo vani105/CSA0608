@@ -1,0 +1,6 @@
+nums=[3,7,3,5,2,5,9,2]
+res=set()
+for item in nums:
+    res.add(item)
+res_list=list(res)
+print("new list",res_list)
